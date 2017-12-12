@@ -1,0 +1,114 @@
+﻿
+.menubar {
+	margin: 0px auto; 
+	text-align: center; 
+	font-size:small;
+	text-decoration: none; 
+    color: rgb(0, 0, 0); 
+	padding-top:20px;
+	padding-bottom:20px;
+	z-index:999;
+}
+
+
+.menubar ul ul {
+	display: none;
+}
+.menubar ul li:hover > ul {
+	display: block;
+}
+.menubar ul {
+	list-style: none; 
+	padding: 0px 20px; 
+	border-radius: 10px; 
+	display: inline-table; 
+	position: relative; 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	
+}
+
+.menubar ul::after {
+	clear: both; display: block; content: "";
+}
+.menubar ul li {
+	float: left;
+	width: 200px;
+	
+}
+.menubar ul li:hover {
+/*
+	background: rgb(255, 255, 255);
+*/
+}
+.menubar ul li:hover a {
+/*
+	color: rgb(102, 133, 179); 
+*/
+}
+.menubar ul li a {
+	padding: 11px 19px; 
+	display: block;
+}
+
+.menubar ul li a:link {
+    color: rgb(0, 0, 0); 
+	text-decoration: none; 
+}
+
+.menubar ul li A:visited {
+    color: rgb(0, 0, 0); 
+}
+
+.menubar ul ul {
+	background: rgb(95, 105, 117); 
+	padding: 0px; 
+	border-radius: 0px; 
+	top: 100%; 
+	position: absolute;
+}
+.menubar ul ul li {
+  background: rgb(255, 255, 255); 
+  border-left-color: rgb(13, 60, 138);
+  border-right-color: rgb(13, 60, 138);
+  border-top-color: rgb(107, 114, 124); 
+  border-bottom-color: rgb(219, 219, 219); 
+  border-left-width: 2px;
+  border-left-style:solid;
+  border-right-width: 2px;
+  border-right-style:solid;
+  border-top-width: 1px; 
+  border-bottom-width: 1px; 
+  border-top-style: solid; 
+  border-bottom-style: solid; 
+	float: none; 
+	position: relative;
+	z-index:999;
+}
+.menubar ul ul li.bottom {
+  border-bottom-color: rgb(13, 60, 138); 
+  border-bottom-width: 2px; 
+}
+
+.menubar ul ul li a {
+	padding-top: 5px;
+	padding-bottom:2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(13, 60, 138); 
+	text-align:left;
+}
+
+.menubar ul ul li a:link {
+    color: rgb(0, 0, 0); 
+}
+
+.menubar ul ul li A:visited {
+    color: rgb(0, 0, 0); 
+}
+
+.menubar ul ul li a:hover {
+	color: rgb(0, 0, 0); 
+	background: rgb(13, 60, 138);
+}
+
+

@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+
+#join_article {
+	width:980px;
+	height: auto;
+	margin: 50px auto 0 auto;
+	border:1px solid black;
+	border-radius:15px;
+}
+
+#join_topbar {
+	width: 980px;
+	height: 100px;
+	border:1px solid black;
+	border-radius: 15px;
+	line-height: 75px;
+}
+#join_middle {
+	width:980px;
+	height:500px;
+	border:1px solid black;
+	border-radius: 15px;
+	
+}
+
+#join_box {
+	width: 980px;
+	height: 900px; 
+	border:1px solid black;
+	border-radius: 15px;
+	line-height: 75px;
+	margin-left: 100px;
+}
+
+#join_t {
+	margin: 50px auto;
+}
+
+.terms {
+	width: 780px;
+	height: 400px;
+	overflow: auto;
+	border:1px solid black;
+	margin: 25px auto 25px auto;
+	
+}
+
+#join_bottom {
+	width: 980px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 100px;
+}
+#join_bottom a {
+	text-decoration: none;
+}
+#join_bottom img {
+	margin-top: 50px;
+	margin-left: 50px;	
+}
+
+
+/* 로그인 */
+#login_board {
+	width: 980px;
+	height: 400px;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 50px auto;
+	text-align: left;
+	position: relative;
+}
+#login_imageAds {
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 15px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	
+}
+
+
+#login_table {
+	width: 280px;
+	height: 120px;
+	border: 1px solid black;
+	border-radius: 15px;
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	
+}
+#login_table ul li {
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+}
+
+#login_menu ul li{
+	
+}
+
+
+
+
+
+
+
+/* 줄 간격.	line-height: 30px;  */
+	

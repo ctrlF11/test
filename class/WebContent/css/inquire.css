@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+#inq_articles {
+	height:980px;
+	width:980px;
+	margin-left:auto; margin-right:auto;
+	border:1px solid black;
+	border-radius:15px;
+}
+
+#inquire_menu {
+	width: 650px;
+	height: 800px;
+	border:1px solid blue;
+	border-radius: 15px; 
+	position: relative;
+	margin-top:30px;
+	margin-left:100px;
+	float:left;
+
+}
+#inquire_top {
+	width: 70%;
+	height: 103px;
+	border: 1px solid black;
+	text-align: center;
+	float: right;
+}
+
+#inquire_top ul {
+	text-align: center;
+	height: 50px;
+	border: 1px solid red;
+	margin: 0px;
+	list-style: none;
+}
+
+#inquire_top ul li {
+	margin-top: 16px;
+	display:inline-block;
+	list-style: none;
+	vertical-align: middle;
+}
+
+
+#inquire_board {
+	width: 70%;
+	height: 560px;
+	border: 1px solid black;
+	text-align: center;
+	float: right;
+}
+
+#inquire_board ul {
+	text-align: center;
+	border: 1px solid blue;
+}
+	
+#inquire_board ul li {
+	display:inline-block;
+	list-style: none;
+	margin-right: auto;
+	border: 1px solid red;
+}
+
+#inquire_bottom {
+	
+}
+
+
+
+	
