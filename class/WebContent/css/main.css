@@ -1,0 +1,226 @@
+﻿@CHARSET "UTF-8";
+
+/*	id / class 구분.
+	
+	id : #
+	class : .
+ */
+
+#main_wrap{
+	z-index: 1;
+}
+#header{
+	margin: 0px auto;
+	width: 980px;
+	position: relative;
+}
+
+#headwrap{
+	height: 50px; padding-top: 22px;
+}
+
+#headwrap .logo{
+	top: 15px; 
+	float:left;
+	padding-left: 10px;
+}
+
+#headwrap .toplinkbar {
+    padding-top: 6px;
+    padding-right: 20px;
+    height: 22px; 
+    right: 0px; 
+    display:inline;
+    float:right;
+	
+}
+
+#headwrap .toplinkbar ul {
+
+}
+
+#headwrap .toplinkbar ul li {
+	display:inline;
+}
+
+#headwrap .login_info {
+    padding-top: 0px;
+    padding-right: 10px;
+    height: 22px; 
+    right: 0px; 
+    display:inline;
+    float:right;
+}
+
+#headwrap .login_info ul {
+    background: url("/images/main/new2013/inforbar_bg.jpg");
+    background-repeat: repeat-x;
+}
+
+#headwrap .login_info ul li {
+	display:inline;
+    color: rgb(0, 0, 0); 
+    position:relative;
+}
+
+#headwrap .login_info ul li a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    padding-left:7px;
+}
+
+#headwrap .login_info ul li span {
+    color: rgb(0, 0, 0); 
+    top: 6px;
+    position:relative;
+    cursor:pointer;
+}
+.clear{
+	clear:both;
+}
+
+#article {
+	width:980px;
+	margin-left:auto; margin-right:auto;
+	border:1px solid black;
+	float: middle;
+}
+
+#article_left {
+	width: 58.5%;
+	height: 472px;
+	border: 1px solid red;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+#main_quick_menu {
+	width: 307px;
+	height: 472px;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+#main_quick_menu ul li { 
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float:left;
+	list-style: none;
+}
+#main_quick_menu img { 
+	cursor: pointer;
+	width: 99px;
+	height: 99px;
+}
+
+
+#main_search  {
+	list-style: none;
+	border: 1px solid black;
+	width: 267px;
+	height: 163px;
+	margin-top: 306px;
+}
+
+#main_search .main_search_li {
+	display: inline-block;
+	border: 1px solid black;
+	margin-left: -41px;
+	float: left;
+	width: 305px;
+	height: 53px;
+	border: 1px solid red;
+	vertical-align: middle;
+}
+
+#article_middle {
+	width: 262px;
+	height: 472px;
+	border: 1px solid black;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.book_area {
+	margin: 0px;
+	padding: 0px;
+	width: 129px;
+	height: 208px;
+	border: 1px solid black;
+	float: left;
+}
+
+#gongji_right {
+	width: 41%;
+	height: 472px;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+}
+
+
+
+#gongji_right #gongji_main_board {
+	width:400px;
+	height:200px;
+	margin-left: auto;
+	border:1px solid blue;
+	
+}
+
+#gongji_main_board ul {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	
+}
+
+#gongji_main_board ul li {
+	border: 1px solid black;
+	margin-left: 10px;
+	display:inline-block;
+	list-style: none;
+}
+
+#gongji_main_board ul li a {
+	text-decoration: none;
+}
+
+#gongji_right #main_calendar {
+	width: 400px;
+	height:270px;
+	margin-left: auto;
+	border:1px solid black;
+}
+
+#main_calendar_t tr td {
+	text-align: center;
+}
+
+
+#underbar {
+	width: 980px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 15px;
+	margin-left:auto; margin-right:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
